@@ -9,11 +9,12 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   background-color: #0063b2ff;
   padding: 20px 10px;
+  position: relative;
 }
 .container * {
   width: fit-content;
@@ -84,6 +85,11 @@ span {
   border: #000 3px solid;
   padding: 5px;
   border-radius: 5px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 @media (max-width: 536px) {
   h1 {
