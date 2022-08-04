@@ -38,6 +38,7 @@
 .input {
   display: flex;
   flex-direction: column;
+  user-select: none;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -51,6 +52,7 @@ input {
 }
 label {
   font-size: 18px;
+  user-select: none;
 }
 .btn {
   cursor: pointer;
@@ -75,6 +77,7 @@ label {
 }
 h1 {
   font-size: 60px;
+  user-select: none;
 }
 span {
   font-weight: bold;
@@ -89,15 +92,12 @@ span {
   user-select: none;
 }
 img {
-  position: absolute;
-  width: auto;
+  width: 200px;
   height: 200px;
   border-radius: 50%;
   top: 25px;
 }
-.gap {
-  margin-top: 200px;
-}
+
 @media (max-width: 536px) {
   h1 {
     font-size: 50px;
