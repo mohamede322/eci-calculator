@@ -16,6 +16,9 @@
   padding: 20px 10px;
   position: relative;
 }
+body {
+  overflow-x: hidden;
+}
 .container * {
   width: fit-content;
   outline: none;
