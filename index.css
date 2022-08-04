@@ -31,9 +31,6 @@
   justify-content: start;
   flex-direction: column;
 }
-.percentage {
-  user-select: none;
-}
 .active {
   background-color: #0e4180;
   color: #fff;
@@ -41,6 +38,9 @@
 .input {
   display: flex;
   flex-direction: column;
+  user-select: none;
+}
+.percentage {
   user-select: none;
 }
 input::-webkit-outer-spin-button,
@@ -62,10 +62,7 @@ label {
   padding: 5px 10px;
   font-size: 16px;
 }
-.btn:hover {
-  background-color: #ddd;
-  color: #000;
-}
+
 .calculate {
   padding: 10px 20px;
   cursor: pointer;
