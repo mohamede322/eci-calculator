@@ -31,6 +31,9 @@
   justify-content: start;
   flex-direction: column;
 }
+.percentage {
+  user-select: none;
+}
 .active {
   background-color: #0e4180;
   color: #fff;
