@@ -86,10 +86,11 @@ span {
   border: #000 3px solid;
   padding: 5px;
   border-radius: 5px;
+  user-select: none;
 }
 img {
   position: absolute;
-  width: 200px;
+  width: auto;
   height: 200px;
   border-radius: 50%;
   top: 25px;
