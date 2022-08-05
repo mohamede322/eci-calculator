@@ -38,21 +38,21 @@ calculateBtn.addEventListener("click", () => {
 function calculateTradingAmount() {
   tradingAmount = value / 822;
   tradingAmountEl.innerHTML = `Trading Amount (lots) = <span>${tradingAmount.toFixed(
-    2
+    4
   )}</span>`;
 }
 function calculateServiceCharge() {
   serviceCharge = tradingAmount * 42;
   serviceChargeEl.innerHTML = `Service Charge = <span>${serviceCharge.toFixed(
-    2
+    4
   )}$</span>`;
 }
 function calculateTotal() {
   const active = document.querySelector(".active").id;
   total = serviceCharge * active;
-  totalEl.innerHTML = `TotalWin = <span>${total.toFixed(2)}$</span>`;
+  totalEl.innerHTML = `TotalWin = <span>${total.toFixed(4)}$</span>`;
 }
 function calculateProfit() {
   profit = total - serviceCharge;
-  profitEl.innerHTML = `Profit = <span>${profit.toFixed(2)}$</span>`;
+  profitEl.innerHTML = `Profit = <span>${profit.toFixed(4)}$</span>`;
 }
